@@ -1,0 +1,92 @@
+body { font-family:'proxima_novalight'; font-size:15px; background:#F5F5F5 !importabnt; }
+img { max-width: 100%; height: auto; }
+h1,h2,h3,h4,h5 {font-family:'proxima_novalight' !important; }
+ul {  display:block; padding-right: 5px; padding-left:18px; border-radius:2px; padding-top:0px; margin-bottom:0px !important; }
+li { display:inline-block; padding-right:5px; padding-top:5px;  padding-bottom:5px; line-height:1; }
+.inputs { border-radius:3px !important;}
+#tab ul:hover { background:#00aeef; color:#fff; }
+div#tab li:nth-child(2) { font-size:10px; }
+div#fav li:nth-child(2) { font-size:10px; }
+.location { font-size:10px;}
+#tab {padding-left:0px;}
+#tab ul {  padding-left:0px; border-bottom:1px solid #ddd; width:100%; }
+#tab li {  width:100%; }
+#fav ul {  width:100%; padding-left:0px; }
+#fav li {  width:100%; }
+.wrapper { margin-top:20px;}
+#tab { border:1px solid #ddd; border-radius:2px; }
+.c { #1fa67a; }
+#txtHint a { color:#555; display:block;  }
+.fa-position { float:right; color:#07A6E1; padding-top:5px;}
+.full-border { border:1px solid #ddd; }
+.panel-title { padding-top:14px !important; font-size:20px !important; }
+.navbar-inverse .navbar-nav>li>a:hover { background:none !important;  }
+.hidden-id { display:none; }
+1button { border:none !important; background:none !important; padding:0px !important; }
+.list-group-item input { border:1px solid #f5f5f5 !important; margin-right:5px; padding:3px; margin-bottom:5px; font-family:'proxima_novalight'; }
+.btn-in-header {margin-left:5px !important; margin-right:5px !important;}
+.btn-del { background-color:#d9534f !important; width:100% !important; border:none; }
+.btn-del:hover { background:#D1504B !important; width:100% !important; border:none; }
+.btn-add { width:100% !important; border:none; }
+.btn-cancel { background-color:#d9534f !important; }
+.fa-locate { padding-right:5px;}
+.fa-green-hover:hover { color:#C0EBBD;}
+.fa-green { color:#C0EBBD;}
+.fa-red-hover:hover { color:#d9534f;}
+
+.fa-color { color:#C0EBBD;}
+.fa-print { padding-right:5px; color:#FFF;}
+.list-group-item, .panel-heading {min-height:73px; border-radius:2px;}
+.no-height { min-height:inherit !important; }
+.panel-heading { background:#00aeef !important; color:#fff; }
+ul.navbar-nav a:visited { background:#00aeef !important;}
+.form-input { width:90% !important; box-shadow: 0px 0px 3px rgba(84, 201, 76, 1);}
+.form-control { box-shadow: 0px 0px 3px rgba(84, 201, 76, 1);}
+table, th, td, tr { font-family:'proxima_novalight'; font-size:12px;}
+.tbl-fav td { font-size:15px !important; }
+table {margin-top:20px; }
+div.table-hover:hover{ background:#red !important;}
+.white-back { background:#fff !important;}
+input:required { box-shadow: 0px 0px 1px rgba(700, 0, 0, 0.85); }
+select:required { box-shadow: 0px 0px 1px rgba(700, 0, 0, 0.85); }
+select { padding-left:3px !important;}
+.upper {text-transform:uppercase !important;}
+.filter { margin-top:20px; }
+.main { margin-top:15px;}
+.filter-select { width:20% !important; display:inline; } 
+.filter-select-all { width:64% !important; display:inline; } 
+.opt-zero { background:#f5f5f5;}
+.hide-me { display:none !important;}
+.login { padding:10px !important; }
+.txtHint input {}
+.modal-body { padding-bottom:0px !important; }
+.modal-footer h4 { font-size:10px !important; }
+.modal-dialog { max-width:300px !important; }
+li { cursor: pointer; cursor: hand; }
+.tbl-margin { margin-top:0px; }
+.navbar-inverse { background:#00aeef !important; }
+.btn-primary { background:#00aeef;}
+#grpname_availability_result { text-transform:uppercase; }
+.alert { color:red; padding:0; margin:0; }
+.login-help { text-align:center; color:red;}
+.btn-border { border:1px solid #fff;}
+.btn:hover { background:#07A6E1; border:1px solid #fff;}
+.form-group { margin-bottom:0px;}
+.btn-clr{ border:none; background:#00aeef; color:#fff;}
+.navbar-header { float:right;}
+.navbar-brand { margin-top:0px;}
+.navbar-brand h3{ padding:1px 0px; margin:0px;}
+header { min-height:42px; }
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background-color:#039FDA;}
+
+@media (max-width: 767px) {
+.navbar-header {}
+h1 { font-size:20px !important; margin-top:0px !important; }
+.filter-select { width:100% !important; display:inline; } 
+.navbar-header { float:left; width:100%; }
+.container>.navbar-header, .container>.navbar-collapse { margin-right:0px !important; margin-left:0px !important; }
+.panel-footer { padding:0px 0px !important; }
+h3 { font-size:18px; }
+.gap { min-height:10px; }
+.fa-locate { padding-right:2px;}
+}
